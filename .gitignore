@@ -41,3 +41,7 @@ compute_and_write_csv_example
 compute_and_write_output.csv
 parquet-arrow-example.parquet
 reader_writer
+.ninja_deps
+.ninja_log
+Makefile
+.cache/

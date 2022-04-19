@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.10)
 
 project(ArrowExamples)
 
-set(CMAKE_MODULE_PATH ${CMAKE_MODULE_PATH} "cmake_modules")
+set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_LIST_DIR}/cmake_modules" ${CMAKE_MODULE_PATH})
 
 # This ensures that things like gnu++11 get passed correctly
 if(NOT DEFINED CMAKE_CXX_STANDARD)
