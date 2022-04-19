@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+
+build.ninja
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compute_and_write_csv_example
+compute_and_write_output.csv
+parquet-arrow-example.parquet
+reader_writer
