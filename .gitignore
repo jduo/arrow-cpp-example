@@ -34,6 +34,7 @@
 build.ninja
 build/
 CMakeFiles/
+.vscode/
 CMakeCache.txt
 cmake_install.cmake
 compute_and_write_csv_example
