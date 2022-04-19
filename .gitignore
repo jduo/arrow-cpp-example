@@ -45,3 +45,4 @@ reader_writer
 .ninja_log
 Makefile
 .cache/
+.DS_Store
